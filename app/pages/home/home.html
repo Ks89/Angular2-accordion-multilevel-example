@@ -1,0 +1,23 @@
+<div>
+
+  <!-- <p>
+    <button type="button" class="btn btn-default" (click)="removeDynamic()">
+      Remove last dynamic
+    </button>
+  </p> -->
+
+  <accordion>
+    <accordion-group heading="This is the header" isOpen="true">
+      This is the content
+    </accordion-group>
+    <accordion-group [heading]="group.heading" *ngFor="let group of groups | async">
+      <accordion-group [heading]="group2.heading" *ngFor="let group2 of group.group2">
+      {{group.content}}
+      </accordion-group>
+    </accordion-group>
+    <accordion-group heading="Another group" [isOpen]="isOpen">
+      More content
+    </accordion-group>
+  </accordion>
+
+</div>

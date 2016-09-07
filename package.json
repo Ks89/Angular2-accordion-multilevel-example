@@ -1,0 +1,31 @@
+{
+  "name": "metismenu-example",
+  "description": "Example of accordion multilevel usage with angular",
+  "homepage": "https://www.fake.it",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "engines": {
+    "npm": ">=2.14.x"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.5",
+    "@angular/compiler": "2.0.0-rc.5",
+    "@angular/core": "2.0.0-rc.5",
+    "@angular/http": "2.0.0-rc.5",
+    "@angular/platform-browser": "2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.5",
+    "@angular/router": "3.0.0-rc.1",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "^0.19.37",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "0.0.31",
+    "@types/reflect-metadata": "0.0.3",
+    "typescript": "^2.0.2"
+  }
+}
