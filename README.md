@@ -1,8 +1,9 @@
-# Angular2 MetisMenu Example
+# Angular2 Accordion multilevel Example
 
 
-A small example of how to use metismenu inside an angular2 component
-   
+A small example of how to use a multilevel accordion inside an angular2 component
+
+Based on http://plnkr.co/edit/bJpwzXSFlUzHsN9wi8d0?p=preview
 
 ##How to use it
 
